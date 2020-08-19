@@ -7,8 +7,7 @@
   "workspaces": [
     "docs",
     "design",
-    "lib",
-    "app"
+    "lib"
   ],
   "scripts": {
     "test": "yarn workspaces run test",
