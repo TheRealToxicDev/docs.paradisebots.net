@@ -9,7 +9,7 @@ import {
 } from "@architus/facade/theme/color";
 
 dotenv.config();
-const title = process.env.SITE_NAME ?? "Architus Docs";
+const title = process.env.SITE_NAME ?? "Paradise Docs";
 const description = `General purpose Discord bot supporting advanced role management, custom emotes for non-nitro users, configurable response commands, and more.`;
 
 export const pathPrefix = process.env.SITE_BASE_PATH ?? "/";
@@ -19,35 +19,35 @@ export const siteMetadata = {
   headerTitle: `Documentation`,
   version: "Rolling release",
   description,
-  author: `architus`,
-  siteUrl: process.env.SITE_ROOT ?? "https://docs.archit.us",
+  author: `ParadiseBotList`,
+  siteUrl: process.env.SITE_ROOT ?? "https://docs.paradisebots.net",
   themeColor,
   msTileColor,
   github: {
-    owner: "architus",
-    name: "archit.us",
+    owner: "ParadiseBotList",
+    name: "ParadiseDocs-ReDesign",
     docsRoot: "docs/content/",
     branch: process.env.GITHUB_BRANCH ?? "master",
   },
   socials: {
-    github: `https://github.com/architus`,
-    discord: `https://discord.gg/svrRrSe`,
+    github: `https://github.com/ParadiseBotList`,
+    discord: `https://discord.gg/ZAgkp2Q`,
   },
   footer: {
     about: `This site contains implementation documentation for the architus ecosystem, including the microservice-based backend application as well as the React-based web dashboard.`,
     links: [
       {
-        href: "https://discord.gg/svrRrSe",
+        href: "https://discord.gg/ZAgkp2Q",
         text: "Discord server",
         icon: "discord",
       },
       {
-        href: "https://github.com/architus",
+        href: "https://github.com/ParadiseBotList",
         text: "GitHub",
         icon: "github",
       },
       {
-        href: "https://archit.us/",
+        href: "https://ParadiseBots.net",
         text: "Main site",
       },
       {
@@ -117,7 +117,7 @@ export const plugins = [
       description,
       /* eslint-disable @typescript-eslint/camelcase */
       short_name: title,
-      homepage_url: "https://docs.archit.us",
+      homepage_url: "https://docs.paradisebots.net",
       start_url: pathPrefix,
       background_color: themeBgColor,
       theme_color: themeColor,
