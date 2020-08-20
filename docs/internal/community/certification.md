@@ -9,6 +9,7 @@ Our <strong>Certification Program</strong> is currently unavailble, Certificatio
 </Alert>
 
 ## Certified User Structure
+
 | Field	| Type | Description | Status
 |--------------|----------|--------------|
 id | Snowflake | The id of the certified user.
