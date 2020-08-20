@@ -1,8 +1,8 @@
 import React from "react";
 
-import SymbolSvg from "../assets/logo/logo-symbol.svg";
-import LogotypeSvg from "../assets/logo/logo-text.svg";
-import CombinedSvg from "../assets/logo/logo.svg";
+import SymbolSvg from "../assets/logo/logo-symbol.png";
+import LogotypeSvg from "../assets/logo/logo-text.png";
+import CombinedSvg from "../assets/logo/logo.png";
 import { isNil } from "@architus/lib/utility";
 
 /**
