@@ -6,7 +6,8 @@ Our API is a HTTPS/REST for general operations such as sending POST requests and
 
 ---
 
-## Base URL
+###### Base URL
+
 ```markdown
 https://paradisebots.net/api
 ```
@@ -19,7 +20,7 @@ Authentication is performed with the Authorization HTTP header in the format Aut
 
 ---
 
-## Example Authorization Header
+###### Example Authorization Header
 
 ```markdown
 Authorization:   6jShKo4HBuMIEdTeFUk1
