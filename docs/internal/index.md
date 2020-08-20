@@ -20,7 +20,7 @@ overrideNav: Paradise Docs
 
 ## ❓ Getting Help
 
-If you have an issue about the bot, the documentation website, or have any other questions, feel free to join our discord server:
+If you have an issue with the bot list, the documentation website, or have any other questions, feel free to join our [discord server](https://discord.gg/ZAgkp2Q):
 
 <Iframe src="https://discordapp.com/widget?id=727615775850102801&theme=dark" height="500" />
 
