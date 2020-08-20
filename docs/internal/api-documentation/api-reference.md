@@ -1,5 +1,4 @@
 ---
-shortTitle: Reference
 title: API Reference
 ---
 
