@@ -2,39 +2,25 @@
 title: Command Updates
 ---
 
-Ninja Bots Documentation website is not an Official Commands List, Ninjas offical commands list can be found [here](http://ninjabot.site/commands) this page is used for Command Updates, Information Etc.
-
-# Yoda Command Update
-<Alert type="warning">
-
-<strong>Warning:</strong> The Yoda command is currently buggy and a Temporary Fix can be found below for Self-Hosted versions, a proper Fix will be implemented in the v0.9.6.5 Public Release (Currently Private)
-
-</Alert>
-
-# Yoda Command Fix
-
-<Collapse>
-
-```jsx
-const Discord = require("discord.js");
-const bot = new Discord.Client();
-const snek = require('node-fetch');
-
-exports.run = async (client, message, args) => {
-
-const speech = args.join(' ');
-
-if (speech.length < 2) return message.channel.send(`${message.author.username} You must supply text for Yoda. Yes.`);
-
-const text = await snek(`http://yoda-api.appspot.com/api/v1/yodish?text=${encodeURIComponent(speech.toLowerCase())}`)
-
-.then(res => res.text()) // expecting a json response
-.then(body => {
-message.channel.send(JSON.parse(body).yodish).catch(console.error);
-});
-}
-```
-
-</Collapse>
-
-##
+## General
+* p>help - Displays my Help Message and Categories.
+> Aliases: h, helpme
+> permLevel: User
+* p>links - Displays a list of our Website and Support Links.
+> Aliases: link, site,
+> permLevel: User
+* p>embed {MessageHERE} - Sends the message provided as an embed
+> Aliases: se
+> permLevel: User
+* p>say {MessageHERE} - Sends your message via ME
+> Aliases: speak
+> permLevel: User
+* p>count - Displays how many bots have been added to our list.
+> Aliases: list, botcount, bot-count
+> permLevel: User
+* p>botinfo {@Bot} - Displays some information about the bot provided.
+> Aliases: bot-info, info
+> permLevel: User
+* p>widget {@Bot} - Returns the Widget/iframe Embed for the specified Bot.
+> Aliases: N/A 
+> permLevel: User
