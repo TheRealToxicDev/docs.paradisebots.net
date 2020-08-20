@@ -2,6 +2,13 @@
 title: Command Updates
 ---
 
+<Alert type="info">
+
+**NOTE:** This Commands List is a work in progress and will be Updated Frequently.
+</Alert>
+
+---
+
 ## General
 * p>help - Displays my Help Message and Categories.
 > Aliases: h, helpme
