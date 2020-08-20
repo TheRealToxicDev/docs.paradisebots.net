@@ -1,5 +1,5 @@
 links:
-  - href: https://ninjabot.statuspage.io/
+  - href: https://paradisebots.statuspal.io/
     text: Status
   - href: /
     text: Info
@@ -7,5 +7,5 @@ links:
     text: Docs
   - href: https://app.netlify.com/sites/ninjabotdocs/deploys
     text: Builds
-  - href: http://www.twitter.com/NinjaDiscordBot
+  - href: http://www.twitter.com/ParadiseBotList
     text: Twitter
