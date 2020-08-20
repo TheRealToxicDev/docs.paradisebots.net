@@ -1,6 +1,6 @@
 ---
 shortTitle: Introductions
-title: API Documentation
+title: API Introduction
 ---
 
 Like most Big Name Bot Lists here at Paradise we offer Custom API for Developers to Interact with 
