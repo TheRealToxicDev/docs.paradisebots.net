@@ -9,7 +9,7 @@ import Icon from "components/Icon";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 
-import LogoIconSvg from "assets/C0F9219D-262B-4804-854B-A80BE797A09A.png";
+import LogoIconSvg from "assets/"image2vector.svg";
 import "./style.scss";
 
 function Header({ sticky, leftChildren, ...rest }) {
