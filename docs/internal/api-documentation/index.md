@@ -1,5 +1,5 @@
 ---
-shortTitle:API-Intro
+shortTitle: Introductions
 title: API Introduction
 ---
 
