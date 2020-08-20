@@ -119,7 +119,7 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: "apple-touch-icon",
           sizes: "180x180",
-          href: "/img/apple-touch-icon.png"
+          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
         },
         {
           rel: "icon",
