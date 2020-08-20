@@ -1,13 +1,11 @@
-import { useState, useEffect, useMemo } from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useState, useEffect } from "react";
 import { globalHistory } from "@reach/router";
-import { isDefined } from "./object";
-import { splitPath } from "./string";
 
 // Sourced from reach/router/issues/203
 // Repository is licensed under MIT
 // https://github.com/reach/router/issues/203
 
+// Gets current location from global history as a hook
 export function useLocation() {
   const initialState = {
     location: globalHistory.location,
@@ -29,62 +27,15 @@ export function useLocation() {
   return state;
 }
 
+// Runs an effect hook once, simulating componentDidMount/componentWillUnmount
 export function useEffectOnce(effectFunc) {
   useEffect(effectFunc, []);
 }
 
-const trimPath = path =>
-  "/" +
-  path
-    .replace(".mdx", "")
-    .replace(".md", "")
-    .replace("index", "")
-    .replace(/\/$/, "");
-
-export function useDocsPages(includeRoot = false) {
-  const query = useStaticQuery(graphql`
-    query SideNavQuery {
-      allFile(
-        filter: {
-          sourceInstanceName: { eq: "docs" }
-          extension: { regex: "/^(?:md)|(?:mdx)$/" }
-        }
-      ) {
-        edges {
-          node {
-            relativePath
-            childMarkdownRemark {
-              frontmatter {
-                shortTitle
-                title
-              }
-            }
-            childMdx {
-              frontmatter {
-                shortTitle
-                title
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  // Transform raw nodes
-  return useMemo(() => {
-    const mapped = query.allFile.edges.map(({ node }) => {
-      const path = trimPath(node.relativePath);
-      const { frontmatter } = isDefined(node.childMarkdownRemark)
-        ? node.childMarkdownRemark
-        : node.childMdx;
-      return {
-        path,
-        title: frontmatter.title,
-        shortTitle: frontmatter.shortTitle,
-        fragments: splitPath(path)
-      };
-    });
-    return includeRoot ? mapped : mapped.filter(page => page.path !== "/");
-  });
+// Returns true only if the current render
+// (useful for ensuring SSR/client hydration symmetry)
+export function useInitialRender() {
+  const [isInitial, setIsInitial] = useState(true);
+  useEffectOnce(() => setIsInitial(false));
+  return isInitial;
 }

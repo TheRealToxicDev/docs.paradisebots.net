@@ -70,11 +70,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: "og:image",
-          content: "/img/card.png"
+          content: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         },
         {
           property: `og:description`,
           content: metaDescription
+        },
+        {
+          property: `og:site_name`,
+          content: globalTitle
         },
         // Twitter
         {
@@ -121,29 +125,24 @@ function SEO({ description, lang, meta, title }) {
           rel: "icon",
           type: "image/png",
           sizes: "32x32",
-          href: "/img/favicon-32x32.png"
+          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         },
         {
           rel: "icon",
           type: "image/png",
           sizes: "16x16",
-          href: "/img/favicon-16x16.png"
+          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         },
         {
           rel: "shortcut icon",
-          href: "/img/favicon.ico"
+          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         }
       ]}
     />
   );
 }
 
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-  title: null
-};
+export default SEO;
 
 SEO.propTypes = {
   description: PropTypes.string,
@@ -152,4 +151,11 @@ SEO.propTypes = {
   title: PropTypes.string
 };
 
-export default SEO;
+SEO.defaultProps = {
+  lang: `en`,
+  meta: [],
+  description: ``,
+  title: null
+};
+
+SEO.displayName = "SEO";

@@ -1,12 +1,32 @@
 import React from "react";
+
 import Icon from "components/Icon";
-import Container from "components/Container";
+import Demo from "components/Demo";
 import Link from "components/Link";
+import Route from "components/Route";
+import Alert from "components/Alert";
+import Iframe from "components/Iframe";
+import Collapse from "components/Collapse";
+import Overview from "components/Overview"
+import Container from "components/Container";
 import createHeading from "components/Heading";
+import ExternalSnippet from "components/ExternalSnippet";
 
 const components = {
+  // React short-codes
   Icon,
+  Demo,
+  Link,
+  Alert,
+  Iframe,
+  Collapse,
+  Overview,
   Container,
+  ExternalSnippet,
+  Route: Route.Restful,
+  GatewayRoute: Route.Gateway,
+
+  // Markdown components
   a: Link,
   h1: createHeading({ component: "h1" }),
   h2: createHeading({ component: "h2" }),

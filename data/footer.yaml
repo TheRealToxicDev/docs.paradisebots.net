@@ -1,0 +1,11 @@
+links:
+  - href: https://ninjabot.statuspage.io/
+    text: Status
+  - href: /
+    text: Info
+  - href: /internal/
+    text: Docs
+  - href: https://app.netlify.com/sites/ninjabotdocs/deploys
+    text: Builds
+  - href: http://www.twitter.com/NinjaDiscordBot
+    text: Twitter

@@ -23,7 +23,6 @@ function Link({
   const useAnchor =
     external ||
     isFile(href) ||
-    isDefined(onClick) ||
     newTab ||
     href.indexOf("#") !== -1 ||
     href.indexOf("?") !== -1;
@@ -66,15 +65,6 @@ function Link({
 
 export default Link;
 
-Link.defaultProps = {
-  disabled: false,
-  href: "",
-  icon: "",
-  text: "",
-  download: false,
-  partiallyActive: true
-};
-
 Link.propTypes = {
   // Props from schema
   href: PropTypes.string,
@@ -95,6 +85,17 @@ Link.propTypes = {
   ]),
   partiallyActive: PropTypes.bool
 };
+
+Link.defaultProps = {
+  disabled: false,
+  href: "",
+  icon: "",
+  text: "",
+  download: false,
+  partiallyActive: true
+};
+
+Link.displayName = "Link";
 
 // Predefined onClick action map
 export const actions = {
@@ -139,6 +140,8 @@ function LinkContent({ text, icon }) {
   );
 }
 
+LinkContent.displayName = "LinkContent";
+
 function RouterLinkWrapper({
   className,
   activeClassName,
@@ -147,17 +150,18 @@ function RouterLinkWrapper({
   ...rest
 }) {
   const getProps = useCallback(
-    ({ isPartiallyCurrent, isCurrent }) => {
+    ({ isPartiallyCurrent, isCurrent, href, location }) => {
+      const isActive = isCurrent || `${href}/` === location.pathname;
       if (treatPartiallyActiveAsActive) {
         return {
           className: classNames(className, {
-            [activeClassName]: isCurrent || isPartiallyCurrent
+            [activeClassName]: isActive || isPartiallyCurrent
           })
         };
       } else {
         return {
           className: classNames(className, {
-            [activeClassName]: isCurrent,
+            [activeClassName]: isActive,
             [partiallyActiveClassName]: isPartiallyCurrent
           })
         };
@@ -167,3 +171,5 @@ function RouterLinkWrapper({
   );
   return <RouterLink getProps={getProps} {...rest} />;
 }
+
+RouterLinkWrapper.displayName = "RouterLinkWrapper";

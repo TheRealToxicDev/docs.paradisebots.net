@@ -1,8 +1,6 @@
-import React, { useMemo } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { isDefined } from "utility";
-
-import Link from "components/Link";
 
 import "./style.scss";
 
@@ -25,6 +23,8 @@ TableOfContents.propTypes = {
   headers: PropTypes.object
 };
 
+TableOfContents.displayName = "TableOfContents";
+
 // ? =================
 // ? Helper components
 // ? =================
@@ -40,9 +40,10 @@ function TocItems({ items }) {
       ) : null}
     </li>
   ));
-  return null;
 }
 
 TocItems.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object)
 };
+
+TocItems.displayName = "TocItems";

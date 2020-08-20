@@ -1,23 +1,27 @@
 import React from "react";
 import classNames from "classnames";
-
-import Icon from "components/Icon";
+import { useInitialRender } from "utility";
 
 import "./style.scss";
 
 function createHeading({ component: Component, rightLink = false }) {
-  return ({ children, id, ...rest }) => {
+  const heading = ({ children, id, ...rest }) => {
+    const isInitial = useInitialRender();
     const link = (
       <a
-        className={classNames("heading-link", { right: rightLink })}
+        className={classNames("heading-link", `heading-${Component}`, {
+          right: rightLink
+        })}
         href={`#${id}`}
       >
-        <Icon name="link" />
+        <span className="heading-link--icon" />
       </a>
     );
     return (
-      <div className="anchor-wrapper">
-        <a className="anchor" name={id}> </a>
+      <div className={classNames("anchor-wrapper", `anchor--${Component}`)}>
+        <a className="anchor" name={id}>
+          {" "}
+        </a>
         <Component {...rest}>
           {children}
           {link}
@@ -25,6 +29,8 @@ function createHeading({ component: Component, rightLink = false }) {
       </div>
     );
   };
+  heading.displayName = `Heading-${Component}`;
+  return heading;
 }
 
 export default createHeading;

@@ -6,9 +6,9 @@ import Container from "components/Container";
 
 function NotFoundPage() {
   return (
-    <Layout>
+    <Layout noDrawer>
       <SEO title="Not Found" />
-      <Container className="mt-3">
+      <Container className="mt-5">
         <h1>Page Not Found 😕</h1>
       </Container>
     </Layout>
@@ -16,3 +16,5 @@ function NotFoundPage() {
 }
 
 export default NotFoundPage;
+
+NotFoundPage.displayName = "NotFoundPage";
