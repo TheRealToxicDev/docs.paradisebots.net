@@ -8,9 +8,9 @@ Our API is a HTTPS/REST for general operations such as sending POST requests and
 ---
 
 ## Base URL
-| Our Website URL |
-|--------------|--------------|
-https://paradisebots.net/api |
+```markdown
+https://paradisebots.net/api
+```
 
 ---
 
@@ -21,6 +21,7 @@ Authentication is performed with the Authorization HTTP header in the format Aut
 ---
 
 ## Example Authorization Header
-| Type | TOKEN | Description |
-|--------------|--------------|--------------|
-Authorization: | 6jShKo4HBuMIEdTeFUk1 | Your Authorization type and Token/Key
+
+```markdown
+Authorization:   6jShKo4HBuMIEdTeFUk1
+```
