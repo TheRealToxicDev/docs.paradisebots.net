@@ -3,6 +3,7 @@ title: Community
 noTOC: true
 ---
 
-The Paradise Bot List project encourages collaboration and has all of its source code on ~~[GitHub](https://github.com/TheRealToxicDev/Ninja-Bot-Source)~~.
+The Paradise Bot List project is Open-Source and encourages collaboration
+* [GitHub](https://github.com/ParadiseBotList).
 
 <Overview />
