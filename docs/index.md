@@ -5,7 +5,7 @@ noSequenceLinks: true
 isRoot: true
 ---
 
-This site contains support documentation on the Paradise Bot List project and its companion web app & API, including documentation about features, management bot commands, and tutorials on common use cases.
+Welcome to the Official Paradise Docs, This site contains support documentation on the Paradise Bot List project and its companion web app & API, including documentation about features, management bot commands, and tutorials on common use cases.
 
 ---
 
@@ -16,11 +16,11 @@ To start using our services Please join our Discord Server and/or Submit a bot o
 
 ## 🔗 Quick Links
 
-- [Main website](https://paradisebots.net)
-- [F.A.Q's](https://paradisebots.net/faqs)
-- [Bot Commands](/commands)
-- [Patch Notes](/changelog/)
-- [Documentation](/internal)
+- [Paradise Website](https://paradisebots.net)
+- [Paradise F.A.Q's](https://paradisebots.net/faqs)
+- [Paradise Commands](/commands)
+- [Paradise Changes](/changelog/)
+- [Paradise Docs](/internal)
 
 ---
 
