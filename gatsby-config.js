@@ -1,4 +1,4 @@
-const themeColor = "#6496c4";
+const themeColor = "#748CDA";
 const bgColor = "#496D8F";
 
 require("dotenv").config({
