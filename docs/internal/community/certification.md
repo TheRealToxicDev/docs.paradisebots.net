@@ -9,8 +9,7 @@ Our <strong>Certification Program</strong> is currently unavailble, Certificatio
 </Alert>
 
 ## Certified User Structure
-
-| Field	| Type | Description | Status
+| Field	| Type | Description
 |--------------|----------|--------------|
 id | Snowflake | The id of the certified user.
 username | String |	The username of the certified user.
@@ -20,7 +19,7 @@ certifiedBadge | Object | The Certified User Badge featured on the user page.
 --- 
 
 ## Certified Bot Structure
-| Field	| Type | Description | Status
+| Field	| Type | Description
 |--------------|----------|--------------|
 id | Snowflake | The id of the certified bot 
 username | String |	The username of the certified bot
