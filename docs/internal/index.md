@@ -6,7 +6,7 @@ noBreadcrumb: true
 overrideNav: Paradise Docs
 ---
 
- ## Introduction.</>,
+ ## Introduction.
  Paradise is The Discord Bot List that strives to provide all Discord Bots & Bot Devs With a little bit of Freedom!!
 
 ---
