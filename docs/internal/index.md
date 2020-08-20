@@ -1,9 +1,9 @@
 ---
-shortTitle: Ninja Bot Docs
-title: Ninja Documentation
+shortTitle: Paradise Docs
+title: Paradise Documentation
 isRoot: true
 noBreadcrumb: true
-overrideNav: Ninja Docs
+overrideNav: Paradise Docs
 ---
 
 ![](https://cdn.glitch.com/49815e1b-6340-430f-a74e-b6164ab1f779%2FIMG_20200501_100026.jpg?v=1588348851496)
@@ -68,4 +68,5 @@ Ninja Bot will use SQLite instead of JSONs to store data (Better this way so it 
 
 If you have an issue about the bot, the documentation website, or have any other questions, feel free to join our discord server:
 
-<Iframe src="https://discordapp.com/widget?id=698243583693815858&theme=dark" height="500" />
+<Iframe src="https://discordapp.com/widget?id=698243583693815858&theme=dark" height="500" />
+
