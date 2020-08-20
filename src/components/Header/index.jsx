@@ -63,7 +63,7 @@ function Header({ sticky, leftChildren, ...rest }) {
           <input
             className="search--input"
             id="docs-search-box"
-            placeholder="Search docs.ninjabot.site"
+            placeholder="Search the Paradise Docs"
           />
         </div>
         <Nav className="right-links">
