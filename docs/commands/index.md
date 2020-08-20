@@ -1,5 +1,5 @@
 ---
-title: Command Updates
+title: Paradise Commands
 ---
 
 <Alert type="info">
