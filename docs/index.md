@@ -18,12 +18,13 @@ To start using our services Please join our Discord Server and/or Submit a bot o
 
 - [Main website](https://paradisebots.net)
 - [F.A.Q's](https://paradisebots.net/faqs)
-- [Paradise Bot Commands](/commands)
+- [Bot Commands](/commands)
 - [Patch Notes](/changelog/)
+- [Documentation](/internal)
 
 ---
 
-> Note: Internal Documentation on the Paradise API & open source module are available on the [Internal Documentation page](/internal)
+> Note: Internal Documentation on the Paradise Bot & API are available on the [Internal Documentation page](/internal)
 
 ---
 
