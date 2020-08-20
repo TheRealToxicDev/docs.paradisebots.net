@@ -1,16 +1,13 @@
 ---
-title: FAQ's
----
- 
-This is where you can find answers to our most Frequently Asked Questions.
- 
-# Support
-
-**Q:** Do you offer Support for both the Master Ninja Bot and Open-Source Versions?
-
+title: Paradise Support
 ---
 
-**A:** Yes we do offer support for our Supported Versions which can be found [here](/changelog/).
-
-##
+Support for the Paradise Bots Project is offered in various ways.
+* [Our Discord]()
+* [Our Twitter](https://twitter.com/ParadiseBotList)
+* [Our Github](https://github.com/ParadiseBotList)
  
+---
+
+## Support Info
+Support for our Services will be offered as fast as possible, Our Discord Channels may become flooded with Messages making it hard to keep up, Please be patient with the Staff, Users & Bot Developers in our Server. If we miss your question wait until we aren't occupied and ping us (One Person **NOT** everyone).
