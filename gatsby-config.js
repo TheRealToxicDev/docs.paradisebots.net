@@ -10,7 +10,6 @@ module.exports = {
     title: `Paradise Docs`,
     description: `The Discord Bot List that strives to provide Discord Bots & Bot Devs with a little bit of freedom`,
     author: `ParadiseBotList`,
-    https://github.com/TheRealToxicDev/NinjaBotDocs/invitations 
     siteUrl: `https://info.ninjabot.site`,
     themeColor,
     msTileColor: "#2b5797",
