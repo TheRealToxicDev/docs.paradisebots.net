@@ -1,32 +1,10 @@
-# Reroute all App URLs under the dynamic path pattern to the React app
-[[redirects]]
-  from = "/app/*"
-  to = "/app.html"
-  status = 200
+[build]
+  command = "gatsby build"
+  publish = "public/"
 
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
-  from = "https://architus.netlify.com/*"
-  to = "https://archit.us/:splat"
+  from = "https://architus-docs.netlify.com/*"
+  to = "https://docs.archit.us/:splat"
   status = 301
   force = true
-
-[build]
-  command = "yarn bootstrap && yarn workspace @architus/app build"
-  publish = "app/public/"
-
-  # Base environment for canary and production
-  [build.environment]
-    SITE_NAME = "Architus Canary"
-    SITE_ROOT = "https://develop.archit.us"
-    BUILD_LOCATION = "remote"
-    NODE_ENV = "production"
-
-[context.production]
-  # Overrides for production
-  [context.production.environment]
-    SITE_NAME = "Architus"
-    SITE_ROOT = "https://archit.us"
-    GATSBY_PRODUCTION = "true"
-    GATSBY_PUBLIC = "true"
-
