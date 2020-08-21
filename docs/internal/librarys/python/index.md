@@ -30,5 +30,3 @@ print(response.text.encode('utf8'))
 ```
 
 ---
-
-**Last Updated:** 08/16/2020
