@@ -24,9 +24,9 @@ Authentication is performed with the Authorization HTTP header in the format Aut
 ###### Example Authorization Header
 
 <GatewayRoute
-  eventName="auth_header"
+  eventName="authorization"
   room="OAuth"
-  sentFrom="client"
+  sentFrom="verified_bot_client"
   requiresAuthorization
   payload={{
     token: {
