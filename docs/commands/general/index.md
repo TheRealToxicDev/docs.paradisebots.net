@@ -1,5 +1,5 @@
 ---
-title: General Commands
+title: General
 ---
 
 ## 🔗 Quick Links
