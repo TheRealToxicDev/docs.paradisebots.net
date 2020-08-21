@@ -20,8 +20,8 @@ module.exports = {
       branch: "master"
     },
     api: {
-      restVersion: "v1 RESTful API",
-      gatewayVersion: "v1 Gateway API"
+      restVersion: "Paradise RESTful API v1",
+      gatewayVersion: "Paradise Gateway API v1"
     }
   },
   pathPrefix: "/",
