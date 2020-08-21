@@ -29,9 +29,9 @@ Authentication is performed with the Authorization HTTP header in the format Aut
   sentFrom="client"
   requiresAuthorization
   payload={{
-    token: {
-      type: "Authorization:",
-      description: "6jShKo4HBuMIEdTeFUk1"
+    authorization: {
+      token: "6jShKo4HBuMIEdTeFUk1",
+      description: "Authorization Token"
     }
   }}
 />
