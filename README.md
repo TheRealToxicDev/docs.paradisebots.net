@@ -1,4 +1,4 @@
-# Paradise Bot List Docs
+# Paradise Docs
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8fe9dd5e-41c7-4238-9e21-3728917e98ed/deploy-status)](https://app.netlify.com/sites/paradisedocs/deploys)
 
