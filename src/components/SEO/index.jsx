@@ -114,7 +114,7 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: "mask-icon",
           color: themeColor,
-          href: "/img/safari-pinned-tab.svg"
+          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
         },
         {
           rel: "apple-touch-icon",
@@ -129,7 +129,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           rel: "icon",
-          type: "image/png",
+          type: "image/png", 
           sizes: "16x16",
           href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
         },
