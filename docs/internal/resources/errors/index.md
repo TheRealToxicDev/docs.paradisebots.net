@@ -2,7 +2,7 @@
 title: Troubleshooting
 ---
 
-Paradise Bot List uses a Custom Error schema which is provided via the Paradise API. If you find yourself on an error page don't worry just copy the link to the page and reference this docs page for explanations in the error.
+Paradise Bot List uses a Custom Error schema which is provided via the Paradise API. If you find yourself on an error page don't worry just copy the link to the page and reference this docs page for explanations on the error.
 
 ---
 
