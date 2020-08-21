@@ -10,7 +10,7 @@ To start using our services Please join our Discord Server and/or Submit a bot o
 
 ## 🔗 Quick Links
 
-- [Contributing](https://docs.paradisebots.net/internal/community/authoring)
+- [Contributing](https://docs.paradisebots.net/internal/community/)
 - [Website](https://paradisebots.net)
 - [F.A.Q's](https://paradisebots.net/faqs)
 - [Commands](https://docs.paradisebots.net/commands)
