@@ -1,6 +1,5 @@
 ---
 title: Rate Limits
-overrideNav: Ratelimits
 noTOC: true
 ---
 
