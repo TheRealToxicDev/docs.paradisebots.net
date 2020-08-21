@@ -6,6 +6,12 @@ Embeds or "Widgets" are images that can display your bots stats on your own webs
 
 ---
 
+## Get Embed
+
+<Route method="GET" path="/api/embed/{bot.id}" />
+
+---
+
 ## Usage
 To use the embed, you can insert the following link as an IFrame or Image into your website / documentation.
 
@@ -14,7 +20,7 @@ To use the embed, you can insert the following link as an IFrame or Image into y
 <Iframe src="https://www.paradisebots.net/api/embed/:ID"/>
 ```
 
-* PNG Link
+* Image
 ```markdown
 https://www.paradisebots.net/api/embed/:ID.png
 ```
@@ -27,8 +33,4 @@ https://www.paradisebots.net/api/embed/:ID.png
 
 ---
 
-## Preview Image
-
-![Skynet Bot](https://www.paradisebots.net/api/embed/727779650738323497)
-
-In these examples we used just a plain embed which defaults to .svg, We also used a Image & Iframe example
+In this example we used just a plain embed which defaults to .svg, We also used a Iframe to display the example
