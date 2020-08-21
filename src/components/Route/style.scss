@@ -173,11 +173,29 @@
                 position: relative;
                 top: -2px;
                 margin-right: 0.8rem;
+               }
             }
         }
     }
 
     &__client {
+        #{$this}--gateway-wrapper {
+            border-left-color: $aqua-forest;
+        }
+
+        #{$this}--sent-from {
+            span {
+                color: $aqua-forest;
+            }
+
+            &::before,
+            &::after {
+                background-color: $aqua-forest;
+            }
+        }
+    }
+
+&__verified_bot {
         #{$this}--gateway-wrapper {
             border-left-color: $aqua-forest;
         }
@@ -285,4 +303,3 @@
          }
      }
   }
-}
