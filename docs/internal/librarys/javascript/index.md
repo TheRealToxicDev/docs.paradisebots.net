@@ -35,5 +35,3 @@ fetch("https://paradisebots.net/api/auth/stats/:botid", requestOptions) // Make 
 ```
 
 ---
-
-**Last Updated:** 08/16/2020
