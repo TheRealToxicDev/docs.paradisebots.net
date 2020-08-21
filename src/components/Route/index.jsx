@@ -153,7 +153,7 @@ Route.Gateway = function({
 Route.Gateway.propTypes = {
   eventName: PropTypes.string.isRequired,
   requiresElevation: PropTypes.bool,
-  requiresAuthorization
+  requiresAuthorization: PropTypes.bool,
   version: PropTypes.string,
   payload: PropTypes.object,
   sentFrom: PropTypes.oneOf(["client", "server", "verified_bot"]).isRequired,
