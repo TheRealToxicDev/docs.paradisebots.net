@@ -17,7 +17,7 @@ module.exports = {
       owner: "ParadiseBotList",
       name: "docs.paradisebots.net",
       docsRoot: "docs/",
-      branch: "master"
+      branch: "ParadiseDocs-v2.00"
     },
     api: {
       restVersion: "Paradise RESTful API v1",
