@@ -5,7 +5,5 @@ links:
     text: Info
   - href: /internal/
     text: Docs
-  - href: https://app.netlify.com/sites/ninjabotdocs/deploys
-    text: Builds
   - href: http://www.twitter.com/ParadiseBotList
     text: Twitter
