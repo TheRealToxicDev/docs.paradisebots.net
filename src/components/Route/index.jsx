@@ -113,7 +113,7 @@ Route.Gateway = function({
             </div>
           )}
          {requiresAuthorization && (
-            <div className="route--gateway-elevation">
+            <div className="route--gateway-authorization">
               <span className="route--auth">
                 <Icon name="lock" className="route--auth-icon" />
                 Requires authorization
