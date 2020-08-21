@@ -21,6 +21,7 @@ To start using our services Please join our Discord Server and/or Submit a bot o
 - [Paradise Commands](/commands)
 - [Paradise Changes](/changelog/)
 - [Paradise Docs](/internal)
+- [Build Details](https://app.netlify.com/sites/paradisedocs/deploys)
 
 ---
 
