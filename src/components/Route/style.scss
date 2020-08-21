@@ -144,6 +144,19 @@
                 margin-bottom: 1rem;
             }
 
+        #{$this}--gateway-authorizaton {
+            @include respond-above(md) {
+                position: absolute;
+                top: $padding;
+                right: $padding;
+            }
+
+            @include respond-below(md) {
+                position: relative;
+                margin-bottom: 1rem;
+            }
+
+
             #{$this}--auth {
                 @include dark-fg(rgba($-primary, 0.9), 10%);
                 @include light-fg(rgba($-primary, 0.9));
