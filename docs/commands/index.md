@@ -1,5 +1,5 @@
 ---
-title: Paradise Commands
+title: Commands
 ---
 
 Official List of commands for the Paradise Bot List bot.
