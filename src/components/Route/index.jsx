@@ -120,7 +120,6 @@ Route.Gateway = function({
                 Requires authorization
               </span>
             </div>
-           <br></br>
           )}
         <h5 className="route--label">Payload Schema</h5>
         </div>
