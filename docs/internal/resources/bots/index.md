@@ -1,5 +1,5 @@
 ---
-title: Bot Structure
+title: Bot Object
 ---
 
 ## Bot Structure
@@ -35,16 +35,14 @@ Use this endpoint to gain information about different bots as well as a list of 
 ---
 
 ## Get Bots (Unfiltered)
-| Method	| Path | Description
-|--------------|----------|--------------|
-GET | /bots/search | Use this endpoint to gain information about different bots as well as a list of all approved **and** unapproved bots
+Use this endpoint to gain information about different bots as well as a list of all approved **and** unapproved bots
+<Route method="GET" path="/bots/search" />
 
 ---
 
 ## Get Bot
-| Method	| Path | Description
-|--------------|----------|--------------|
-GET | /bots/{bot.id} | Use this endpoint to gain information about a specific bot
+Use this endpoint to gain information about a specific bot
+<Route method="GET" path="/bots/{bot.id}" />
 
 ---
 ## Query String Params
