@@ -14,7 +14,7 @@ https://www.paradisebots.net/api/embed/:ID
 
 ## Preview IFrame
 
-<Iframe src="https://www.paradisebots.net/api/embed/650872568374493185"/>
+<Iframe src="https://www.paradisebots.net/api/embed/650872568374493185.png"/>
 
 ![](https://www.paradisebots.net/api/embed/650872568374493185)
 
