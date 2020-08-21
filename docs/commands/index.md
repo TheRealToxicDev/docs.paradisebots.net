@@ -10,8 +10,8 @@ title: Paradise Commands
 ---
 
 ## 🔗 Quick Links
-• [General Commands](#general-commands)
-• [Some paragraph](#queue-commands)
+* [General Commands](#general-commands)
+* [Queue Commands](#queue-commands)
 • 
 
 ## General Commands
