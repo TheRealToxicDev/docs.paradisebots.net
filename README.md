@@ -1,1 +1,1 @@
-# Ninja Bot Docs
+# Paradise Bot List Docs
