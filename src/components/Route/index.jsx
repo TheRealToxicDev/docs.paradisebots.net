@@ -77,6 +77,7 @@ Route.Restful.displayName = "Route.Restful";
 Route.Gateway = function({
   eventName,
   requiresElevation,
+  requiresAuthorization,
   version,
   payload,
   sentFrom,
