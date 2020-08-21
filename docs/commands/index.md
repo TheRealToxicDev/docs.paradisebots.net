@@ -9,9 +9,15 @@ title: Paradise Commands
 
 ---
 
+List of commands for the Paradise Bot List bot.
+
+---
+
 ## 🔗 Quick Links
 * [General Commands](#general-commands)
 * [Queue Commands](#queue-commands)
+
+---
 
 ## General Commands
 * p>help - Displays my Help Message and Categories.
