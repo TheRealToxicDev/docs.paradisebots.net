@@ -153,6 +153,7 @@ Route.Gateway = function({
 Route.Gateway.propTypes = {
   eventName: PropTypes.string.isRequired,
   requiresElevation: PropTypes.bool,
+  requiresAuthorization
   version: PropTypes.string,
   payload: PropTypes.object,
   sentFrom: PropTypes.oneOf(["client", "server", "verified_bot"]).isRequired,
@@ -164,7 +165,7 @@ Route.Gateway.defaultProps = {
 };
 
 Route.Gateway.defaultProps = {
-  requiresAurhorization: false
+  requiresAuthorization: false
 };
 
 Route.Gateway.displayName = "Route.Gateway";
