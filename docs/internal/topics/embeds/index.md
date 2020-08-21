@@ -16,6 +16,8 @@ https://www.paradisebots.net/api/embed/:ID
 
 <Iframe src="https://www.paradisebots.net/api/embed/650872568374493185"/>
 
+![](https://www.paradisebots.net/api/embed/650872568374493185.svg)
+
 In this example we use just a plain embed but it can also be .svg, .png. We recommend SVG for the best quality.
 https://top.gg/api/widget/owner/:ID.svg
 Preview
