@@ -113,7 +113,6 @@ Route.Gateway = function({
               </span>
             </div>
           )}
-
          {requiresAuthorization && (
             <div className="route--gateway-authorization">
               <span className="route--auth">
@@ -121,9 +120,9 @@ Route.Gateway = function({
                 Requires authorization
               </span>
             </div>
+           <br>
           )}
-
-          <h5 className="route--label">Payload Schema</h5>
+        <h5 className="route--label">Payload Schema</h5>
         </div>
         <div className="route--gateway-row row__table">
           <div className="table-responsive-lg table-outer">
