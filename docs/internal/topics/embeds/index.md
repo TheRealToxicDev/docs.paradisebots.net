@@ -29,6 +29,6 @@ https://www.paradisebots.net/api/embed/:ID.png
 
 ## Preview PNG
 
-https://www.paradisebots.net/api/embed/650872568374493185.png
+![Skynet Bot](https://www.paradisebots.net/api/embed/650872568374493185.png)
 
 In these examples we used just a plain embed which defaults to .svg, We also used a .png & Iframe example
