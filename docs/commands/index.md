@@ -9,6 +9,11 @@ title: Paradise Commands
 
 ---
 
+## 🔗 Quick Links
+• [General Commands](#general-commands)
+• [Some paragraph](#queue-commands)
+• 
+
 ## General Commands
 * p>help - Displays my Help Message and Categories.
 > Aliases: h, helpme
