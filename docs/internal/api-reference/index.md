@@ -19,6 +19,8 @@ https://paradisebots.net/api
 To access our API you need to authorize yourself, this can be done by using your Paradise Bot List Token. Your token can be obtained from your Bots Edit page.
 Authentication is performed with the Authorization HTTP header in the format Authorization: `TOKEN`
 
+* Note: The token used below is an example, Please generate your own from your bots edit page.
+
 ---
 
 ###### Example Authorization Header
