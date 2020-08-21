@@ -117,7 +117,7 @@ Route.Gateway = function({
             <div className="route--gateway-authorization">
               <span className="route--auth">
                 <Icon name="lock" className="route--auth-icon" />
-                 Requires authorization
+                Requires authorization
               </span>
             </div>
           )}
@@ -155,12 +155,16 @@ Route.Gateway.propTypes = {
   requiresElevation: PropTypes.bool,
   version: PropTypes.string,
   payload: PropTypes.object,
-  sentFrom: PropTypes.oneOf(["client", "server"]).isRequired,
+  sentFrom: PropTypes.oneOf(["client", "server", "verified_bot"]).isRequired,
   room: PropTypes.string
 };
 
 Route.Gateway.defaultProps = {
   requiresElevation: false
+};
+
+Route.Gateway.defaultProps = {
+  requiresAurhorization: false
 };
 
 Route.Gateway.displayName = "Route.Gateway";
