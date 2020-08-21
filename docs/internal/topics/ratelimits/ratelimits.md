@@ -1,6 +1,5 @@
 ---
 title: Rate Limits
-noTOC: true
 ---
 
 The HTTP API implements a process for limiting and preventing spam requests. API users that regularly hit and ignore the limit will be blocked from our platform. These rate limits are in place to help prevent the abuse and overload of our services.
