@@ -112,6 +112,14 @@ Route.Gateway = function({
               </span>
             </div>
           )}
+         {requiresAuthorization && (
+            <div className="route--gateway-elevation">
+              <span className="route--auth">
+                <Icon name="lock" className="route--auth-icon" />
+                Requires authorization
+              </span>
+            </div>
+          )}
           <h5 className="route--label">Payload Schema</h5>
         </div>
         <div className="route--gateway-row row__table">
