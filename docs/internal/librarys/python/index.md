@@ -15,7 +15,7 @@ To start using server counts on a bot,
 
 ## Example
 Example with Automatic Server Count
-```jsx harmony
+```Python
 url = "https://paradisebots.net/api/auth/stats/:botid" # Make sure you include the domain
 
 payload = "{\"server_count\": 1500}" # Replace this number with the server count
