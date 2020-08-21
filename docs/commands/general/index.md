@@ -2,15 +2,6 @@
 title: General
 ---
 
-## 🔗 Quick Links
-* [General Commands](#general-commands)
-* [Queue Commands](#queue-commands)
-* [Fun Commands](#fun-commands)
-* [Mod Commands](#mod-commands)
-* [Rules Commands](#rules-commands)
-
----
-
 ###### Paradise Bot General Commands
 | Command      | Description | Args | Aliases
 |--------------|----------|--------------| --------------|
