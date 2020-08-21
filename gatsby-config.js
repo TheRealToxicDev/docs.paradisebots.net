@@ -15,7 +15,7 @@ module.exports = {
     msTileColor: "#2b5797",
     github: {
       owner: "ParadiseBotList",
-      name: "ParadiseDocs-Redesign",
+      name: "docs.paradisebots.net",
       docsRoot: "docs/",
       branch: "master"
     },
