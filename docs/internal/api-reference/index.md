@@ -24,10 +24,10 @@ Authentication is performed with the Authorization HTTP header in the format Aut
 ###### Example Authorization Header
 
 <GatewayRoute
-  eventName="auth"
-  room="<OAuth>"
+  eventName="auth_header"
+  room="OAuth"
   sentFrom="client"
-  requiresElevation
+  requiresAuthorization
   payload={{
     token: {
       type: "Authorization:",
