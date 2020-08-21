@@ -23,6 +23,15 @@ Authentication is performed with the Authorization HTTP header in the format Aut
 
 ###### Example Authorization Header
 
-```markdown
-Authorization:   6jShKo4HBuMIEdTeFUk1
-```
+<GatewayRoute
+  eventName="auth"
+  room="<OAuth>"
+  sentFrom="client"
+  requiresElevation
+  payload={{
+    token: {
+      type: "Authorization:",
+      description: "6jShKo4HBuMIEdTeFUk1"
+    }
+  }}
+/>
