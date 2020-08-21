@@ -18,7 +18,7 @@ Paradise Bot List uses a Custom Error schema which is provided via the Paradise 
 ---
 
 ###### API Error Page Schema
-| Error      | Description 
+| Error Link      | Error Description 
 |--------------|----------|
 e=unknown | Your bot ID was invalid.
 e=verified | That bot was already found on the botlist.
