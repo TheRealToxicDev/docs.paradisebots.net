@@ -2,7 +2,7 @@
 title: Bot Object
 ---
 
-## Bot Structure
+###### Bot Structure
 Field |	Type	| Description | Status
 |--------------|----------|--------------|--------------|
 id	| Snowflake	| The id of the bot | **ACTIVE**
@@ -45,7 +45,7 @@ Use this endpoint to gain information about a specific bot
 <Route method="GET" path="/bots/{bot.id}" />
 
 ---
-## Query String Params
+###### Query String Params
 Field	| Type | Description | Default
 |--------------|----------|--------------|--------------|
 limit	| Number	| The amount of bots to return. Max. 500	| 50
@@ -56,7 +56,7 @@ fields	| String	| A comma separated list of fields to show. |	All fields
 
 ---
 
-## Response fields
+###### Response fields
 Field	| Type	| Description
 |--------------|----------|--------------|
 results	| Array of bot objects | The matching bots
