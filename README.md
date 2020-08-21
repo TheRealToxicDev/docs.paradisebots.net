@@ -10,11 +10,11 @@ To start using our services Please join our Discord Server and/or Submit a bot o
 
 ## 🔗 Quick Links
 
-- [Contributing]()
+- [Contributing](https://docs.paradisebots.net/internal/community/authoring)
 - [Website](https://paradisebots.net)
 - [F.A.Q's](https://paradisebots.net/faqs)
 - [Commands](https://docs.paradisebots.net/commands)
-- [Changes](/https://docs.paradisebots.net/changelog)
+- [Changes](https://docs.paradisebots.net/changelog)
 - [Docs](https://docs.paradisebots.net/internal)
 
 ---
