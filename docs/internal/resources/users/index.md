@@ -2,7 +2,7 @@
 title: User Object
 ---
 
-## User Structure
+###### User Structure
 | Field	| Type | Description | Status
 |--------------|----------|--------------|--------------|
 id | Snowflake | The id of the user | **ACTIVE**
