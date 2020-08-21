@@ -10,14 +10,14 @@ module.exports = {
     title: `Paradise Docs`,
     description: `The Discord Bot List that strives to provide Discord Bots & Bot Devs with a little bit of freedom`,
     author: `ParadiseBotList`,
-    siteUrl: `https://docs.paradisebots.net`,
+    siteUrl: `https://info.ninjabot.site`,
     themeColor,
     msTileColor: "#2b5797",
     github: {
       owner: "ParadiseBotList",
-      name: "docs.paradisebots.net",
+      name: "ParadiseDocs-Redesign",
       docsRoot: "docs/",
-      branch: "ParadiseDocs-v2.00"
+      branch: "master"
     },
     api: {
       restVersion: "Paradise RESTful API v1",
