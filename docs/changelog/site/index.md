@@ -1,6 +1,6 @@
 ---
-shortTitle: Site Changes
-title: Changelog
+shortTitle: Site
+title: Website Changes
 noBreadcrumb: true
 noTOC: true
 ---
