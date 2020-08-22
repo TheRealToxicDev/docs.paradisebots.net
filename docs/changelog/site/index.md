@@ -1,5 +1,5 @@
 ---
-shortTitle: Changelog
+shortTitle: Site Changes
 title: Changelog
 noBreadcrumb: true
 noTOC: true
