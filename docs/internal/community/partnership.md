@@ -21,4 +21,4 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 ---
 
 ## Applying for Partnership
-Our partnership program is not available yet. Check back often
+• Our partner applications are currently closed.
