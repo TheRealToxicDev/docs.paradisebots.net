@@ -3,7 +3,7 @@ title: Partners
 ---
 
 Here at Paradise Bots (PBL) we strongly believe in Customer/User Relations. 
-With that being said we do offer a Partnership program for Users/Servers was who are interested in Partnering with us to help each other grow. More details can be found here.
+With that being said we do offer a Partnership program for Users/Servers who are interested in Partnering with us to help each other grow. More details can be found here.
 
 ---
 
