@@ -2,7 +2,7 @@
 title: Fun
 ---
 
-###### Fun Commands
+###### Paradise Bot Fun Commands
 | Command      | Description | Args | Aliases
 |--------------|----------|--------------| --------------|
 p>shame | Shame someone. | @user | none
