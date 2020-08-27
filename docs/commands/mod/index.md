@@ -2,7 +2,7 @@
 title: Mod
 ---
 
-###### Mod Commands
+###### Paradise Bot Mod Commands
 | Command      | Description | Args | Aliases
 |--------------|----------|--------------| --------------|
 p>ban | Ban a user. | @user reason | none
