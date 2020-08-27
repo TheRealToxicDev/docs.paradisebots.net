@@ -50,4 +50,4 @@ noTOC: true
 ---
 
 ## CHANGES EFFECTIVE AS OF:
-* August / 10 / 2020 
+* August / 27 / 2020 
