@@ -12,7 +12,7 @@ module.exports = {
     author: `ParadiseBotList`,
     siteUrl: `https://docs.paradisebots.net`,
     themeColor,
-    msTileColor: "#2b5797",
+    msTileColor: "#748CDA",
     github: {
       owner: "ParadiseBotList",
       name: "docs.paradisebots.net",
