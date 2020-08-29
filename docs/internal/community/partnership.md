@@ -21,4 +21,4 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 ---
 
 ## Applying for Partnership
-• Our partner applications are currently closed.
+•Applications are open!! [Apply here](https://paradisebots.net/partner-app)
