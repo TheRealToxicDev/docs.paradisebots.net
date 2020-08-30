@@ -22,5 +22,5 @@ overrideNav: Paradise Docs
 
 If you have an issue with the bot list, the documentation website, or have any other questions, feel free to join our [discord server](https://discord.gg/ZAgkp2Q):
 
-<Iframe src="https://discordapp.com/widget?id=727615775850102801&theme=dark" height="500" />
+<iframe src="https://discordapp.com/widget?id=748977820457238530&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
