@@ -20,8 +20,8 @@ module.exports = {
       branch: "ParadiseDocs-v2.00"
     },
     api: {
-      restVersion: "Paradise RESTful API v1",
-      gatewayVersion: "Paradise Gateway API v1"
+      restVersion: "Paradise RESTful API v2",
+      gatewayVersion: "Paradise Gateway API v2"
     }
   },
   pathPrefix: "/",
