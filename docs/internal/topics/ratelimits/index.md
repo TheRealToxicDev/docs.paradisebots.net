@@ -8,7 +8,7 @@ Rate limits are applied globally on all routes
 ###### Rate Limits Structure
 | Route	| Request | Requests Allowed Per Minute | Punishment if Exceeded
 |--------------|----------|--------------|--------------|
-/bots/*	| ANY	| 60	| 1 Hour Block
+/api/v1/bot/*	| ANY	| 1	| 5 Minute Block
 
 ---
 
