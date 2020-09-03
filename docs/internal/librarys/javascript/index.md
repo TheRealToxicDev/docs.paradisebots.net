@@ -3,14 +3,14 @@ title: Paradise JavaScript Library
 ---
 
 This is our official JavaScript Library for Paradise Bots, if you have any issues please submit an issue on our github or join our discord.
-* [Github Link](https://github.com/ParadiseBotList/paradiseapi.js/issues)
-* [Discord Link](https://discord.gg/ZAgkp2Q)
+* [Github Link](https://github.com/ParadiseBotList/paradisebotsapi.js/issues)
+* [Discord Link](https://discord.gg/Cqy99Pt)
 * [Official NPM Module](https://help.paradisebots.net/docs/examples/paradiseapi.js)
 
 ---
 To start using server counts on a bot, 
 * Go to your bot edit page, 
-* Click the Authorization Token link at the bottom of the page. This will generate an auth token.
+* Click the Authorization Token button. This will generate an auth token.
 
 ---
 
@@ -28,7 +28,7 @@ var requestOptions = {
   body: JSON.stringify({"server_count": 1500}); // Replace this number with the server count
 };
 
-fetch("https://paradisebots.net/api/auth/stats/:botid", requestOptions) // Make sure you include the domain
+fetch("https://paradisebots.net/api/v1/bot/:botid", requestOptions) // Make sure you replace "botid" with your Bots Client ID
   .then(response => response.text())
   .then(console.log)
   .catch(console.error);
