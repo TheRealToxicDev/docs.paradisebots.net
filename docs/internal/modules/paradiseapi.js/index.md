@@ -40,6 +40,9 @@ Append the Line below to your package.json
 
 > [ Success ] 200 : **[200]: Your Stats Has Been Posted.**
 
+---
+
+## Example (Discord.js v12)
 ```js
 const Discord = require("discord.js")
 const client = new Discord.Client()
