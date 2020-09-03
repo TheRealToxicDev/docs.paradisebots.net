@@ -4,7 +4,7 @@ title: Paradise Python Library
 
 This is our official Python Library for Paradise Bots, if you have any issues please submit an issue on our github or join our discord
 * [Github Link](https://github.com/ParadiseBotList)
-* [Discord Link](https://discord.gg/ZAgkp2Q)
+* [Discord Link](https://discord.gg/Cqy99Pt)
 
 ---
 To start using server counts on a bot, 
@@ -16,7 +16,7 @@ To start using server counts on a bot,
 ## Example
 Example with Automatic Server Count
 ```Python
-url = "https://paradisebots.net/api/auth/stats/:botid" # Make sure you include the domain
+url = "https://paradisebots.net/api/v1/bot/:botid" # Replace :botid with your bot ID
 
 payload = "{\"server_count\": 1500}" # Replace this number with the server count
 headers = {
