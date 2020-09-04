@@ -28,4 +28,6 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 * We should not be listed as liable in any way shape or form for any actions that may arise as a result of using your services, Paradise Bots is a Limited Liabilty Company and holds no responisibily for the content provided by our Partners on our website or theirs. 
 
 ## Applying for Partnership
-•Applications are open!! [Apply here](https://paradisebots.net/partner-app)
+We do not currently have an application for partnership, while we work on making one follow the steps below.
+1. Head to our [Discord Server](https://discord.gg/PbqDufm)
+ 2. DM or Ping one of Owners and let them know you would like to partner.
