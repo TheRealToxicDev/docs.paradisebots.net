@@ -27,6 +27,8 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 * Services provided it websites linked to said serviced shall not included any LOLI related content (NSFW Content Containing Minors)
 * We should not be listed as liable in any way shape or form for any actions that may arise as a result of using your services, Paradise Bots is a Limited Liabilty Company and holds no responisibily for the content provided by our Partners on our website or theirs. 
 
+---
+
 ## Applying for Partnership
 We do not currently have an application for partnership, while we work on making one follow the steps below.
 1. Head to our [Discord Server](https://discord.gg/PbqDufm)
