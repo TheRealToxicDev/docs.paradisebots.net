@@ -16,7 +16,7 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 ## Partnership Requirements
 
 ### Community Requirements
-* All Partnered Servers are expected to have Upwards of 100 Members (Exceptions can be made)
+~~ * All Partnered Servers are expected to have Upwards of 100 Members (Exceptions can be made) ~~
 * All Partnered Servers must follow our Rules on NSFW Content and Screen Sharing.
 * All Partnered Servers are required to Advertise and or Boost Paradise Bots (PBL) as much as possible.
 
@@ -24,8 +24,18 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 
 ### Businesses/Services Requirements
 * Services you provide should not include, promote, sell and or advertise mailicious content, scripts, guides or examples.
-* Services provided it websites linked to said serviced shall not included any LOLI related content (NSFW Content Containing Minors)
+* Services provided or websites linked to said services shall not include, promote or distribute any LOLI related content (NSFW Content Containing Minors)
 * We should not be listed as liable in any way shape or form for any actions that may arise as a result of using your services, Paradise Bots is a Limited Liabilty Company and holds no responisibily for the content provided by our Partners on our website or theirs. 
+
+---
+
+### Discord Bot Requirements
+* No NSFW Content/Commands allowed outside of NSFW Marked Channels
+* No "Invite Rewards" Based support servers
+* All Partnered Bots must Follow our [Bot Rules and Requirements](https://paradisebots.net/botrules) 
+* All Partnered Discord Bots are expected to have Private (Owner or Admin only) Eval and Exec commands
+* No Public DM Commands
+* No Mass DM Commands
 
 ---
 
