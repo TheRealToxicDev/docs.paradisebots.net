@@ -16,7 +16,7 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 ## Partnership Requirements
 
 ### Community Requirements
-~~ * All Partnered Servers are expected to have Upwards of 100 Members (Exceptions can be made) ~~
+* ~~All Partnered Servers are expected to have Upwards of 100 Members (Exceptions can be made)~~
 * All Partnered Servers must follow our Rules on NSFW Content and Screen Sharing.
 * All Partnered Servers are required to Advertise and or Boost Paradise Bots (PBL) as much as possible.
 
