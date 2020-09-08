@@ -4,6 +4,8 @@ title: GitHub Bot
 
 Monitor your Github and GitLab repos with Yappy!
 
+---
+
 # Paradise
 a powerful powerful NodeJS discord bot, built with discord.js.
 
