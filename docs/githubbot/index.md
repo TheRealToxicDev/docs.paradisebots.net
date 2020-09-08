@@ -1,6 +1,5 @@
-
 ---
-title: Paradise GitHub
+title: Paradise GitHub Bot
 ---
 
 Monitor your Github and GitLab repos with Yappy!
