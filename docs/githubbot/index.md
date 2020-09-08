@@ -18,4 +18,4 @@ a powerful powerful NodeJS discord bot, built with discord.js.
 
 ---
 
-Paradise Github is NOT affiliated with or endorsed by [GitHub, Inc](https://github.com/) or [GiLab, Inc.
+Paradise Github is NOT affiliated with or endorsed by [GitHub, Inc](https://github.com/) or [GitLab, Inc.](https://gitlab.com)
