@@ -53,9 +53,10 @@ const pbl = new PBL.get(client.user.id,"bot-auth-token")
 client.on("ready", () => {
 console.log(`Logged in as ${client.user.tag}.`)
 setInterval(() => {
-    pbl.post(client.guilds.cache.size)
-    //pbl.post(client.guilds.cache.size, client.shard.count)
-    //to post shard count!
+/* Here is where we Post the stats to the Site (Only use one of these) */
+   pbl.post(client.guilds.cache.size) /* Will `POST` server count*/
+   //pbl.post(client.shard.count) /* Will `POST` shard count*/
+   //pbl.post(client.guilds.cache.size, client.shard.count) /* Will `POST` server and shard count*/
 })
 
 client.on("message", message => {
@@ -67,4 +68,57 @@ client.on("message", message => {
 
 client.login("token")
 
+```
+
+---
+
+## Example (Discord.js v12 With Event Handler)
+```js
+module.exports = class extends EventClass {
+    constructor() {
+        super('ready', {
+            emitter: 'client',
+            event: 'ready'
+        });
+    }
+
+    exec() {
+  const PBL = require("paradiseapi.js")
+  const pbl = new PBL.get("BOT_ID_HERE","AUTH_TOKEN_HERE")
+  
+/* Here is where we Post the stats to the Site (Only use one of these) */
+   pbl.post(client.guilds.cache.size) /* Will `POST` server count*/
+   //pbl.post(client.shard.count) /* Will `POST` shard count*/
+   //pbl.post(client.guilds.cache.size, client.shard.count) /* Will `POST` server and shard count*/
+    }
+}
+```
+
+## Example ([Discord Akairo](https://www.npmjs.com/package/discord-akairo))
+```js
+const Discord = require('discord.js');
+const { Listener } = require('discord-akairo');
+const request = require('superagent');
+const fetch = require("node-fetch")
+const Client = new Discord.Client()
+
+
+module.exports = class ReadyListener extends Listener {
+    constructor() {
+        super('ready', {
+            emitter: 'client',
+            event: 'ready'
+        });
+    }
+
+    exec() {
+  const PBL = require("paradiseapi.js")
+  const pbl = new PBL.get("BOT_ID_HERE","AUTH_TOKEN_HERE")
+  
+/* Here is where we Post the stats to the Site (Only use one of these) */
+   pbl.post(client.guilds.cache.size) /* Will `POST` server count*/
+   //pbl.post(client.shard.count) /* Will `POST` shard count*/
+   //pbl.post(client.guilds.cache.size, client.shard.count) /* Will `POST` server and shard count*/
+    }
+}
 ```
