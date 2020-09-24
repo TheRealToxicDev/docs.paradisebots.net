@@ -16,10 +16,10 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 ## Partnered User Structure/Schema
 | Field	| Type | Description
 |--------------|----------|--------------|
-userID | Snowflake | The id of the certified user.
-username | String | The username of the certified user.
-isPartnered | Boolean | The certified status of the user.
-Partnered_Member_Badge | Object | The Certified User Badge featured on the user page.
+userID | Snowflake | The id of the partnered user.
+username | String | The username of the partnered user.
+isPartnered | Boolean | The partnered status of the user.
+Partnered_Member_Badge | Object | The Partnered Member Badge featured on the user page.
 
 --- 
 
@@ -51,12 +51,39 @@ Partnered_Bot_Badge | Object | The Partnered Bot Badge featured on the bot page.
 ---
 
 ### Discord Bot Requirements
+<Alert type="error">
+**Warning** Partner Applications for bots are Closed!!
+</Alert>
 * No NSFW Content/Commands allowed outside of NSFW Marked Channels
 * No "Invite Rewards" Based support servers
 * All Partnered Bots must Follow our [Bot Rules and Requirements](https://paradisebots.net/botrules) 
 * All Partnered Discord Bots are expected to have Private (Owner or Admin only) Eval and Exec commands
 * No Public DM Commands
 * No Mass DM Commands
+
+---
+
+### What do Partners Get?
+* Partnered Members
+  1. Special `Partnered Members`role in our Discord Server listed higher then Bot Devs and Members for better exposure.
+  2. Access to our `partner-ads` channel for advertising.
+  3. Special `Partnered Member` badge on your public profile on our website.
+
+* Partnered Bots
+  1. Special `Partnered Bots` role in our Discord Server listed higher then Approved bots for better exposure.
+  2. Access to the `partnered-bots` channel for ease of mind using the bot without a bunch of same prefix spam.
+  3. Special `Partnered Member` badge on your public profile on our website.
+  4. Have your bot Listed on our [Partners Page](https://paradisebots.net/partners)
+
+* Partnered Servers
+  1. Have your server Listed on our [Partners Page](https://paradisebots.net/partners)
+  2. Can be Advertised in our `partner-ads` channel once per week.
+
+* Partnered Businesses/Services
+  1. Server Owners get a Special `Partnered Member` role in our Discord Server.
+  2. Have your service Listed on our [Partners Page](https://paradisebots.net/partners)
+  3. Can be Advertised in our `partner-ads` channel once per week.
+
 
 ---
 
