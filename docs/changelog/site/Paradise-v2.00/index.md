@@ -1,6 +1,6 @@
 ---
-title: Paradise Site v2.00-Beta
-shortTitle: Paradise v2.00-Beta
+title: Paradise Site v2.00
+shortTitle: Paradise v2.00
 noTOC: true
 ---
 
@@ -19,7 +19,7 @@ noTOC: true
 * Create and Implement "add a bot" form.
 * Create and Implement "edit bot" form
 * Create and Implement "resubmit bot" form
-* Push project from v1.30 -> v2.00-Beta
+* Push project from v1.30 -> v2.00
 
 ---
 
@@ -43,9 +43,13 @@ noTOC: true
 * Implement Status for Bot Pages (Online etc)
 * Created a Internal Docs (Strictly for NPM API Module)
 
-
-
 ---
 
 ## Bug Fixes
 * N/A
+
+---
+
+## CHANGES EFFECTIVE AS OF:
+* September / 01 / 2020 
+
