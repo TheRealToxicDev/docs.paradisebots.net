@@ -2,22 +2,6 @@
 title: Certification
 ---
 
-<Alert type="warning">
-
-Our <strong>Certification Program</strong> is currently unavailble, Certification will be made available for Bots and Devs once our Bot List grows and progresses.
-
-</Alert>
-
-## Certified User Structure
-| Field	| Type | Description
-|--------------|----------|--------------|
-id | Snowflake | The id of the certified user.
-username | String |	The username of the certified user.
-certifiedDev	| Boolean	| The certified status of the user.
-certifiedBadge | Object | The Certified User Badge featured on the user page.
-
---- 
-
 ## Certified Bot Structure
 | Field	| Type | Description
 |--------------|----------|--------------|
@@ -25,3 +9,36 @@ id | Snowflake | The id of the certified bot
 username | String |	The username of the certified bot
 certifiedBot | Boolean	| The certified status of the bot
 certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
+
+## Certification Requirements
+
+<Alert type="error">
+
+<strong>Warning:</strong> User Certification will be released at a later date!!
+
+</Alert>
+
+### Certified Bot Requirements
+All bots must meet these requirements before being considered for Certification.
+* `200 Votes` or more on our Website.
+* Has been Listed on our webiste for `1 Month` or longer.
+* No Public or "Outside NSFW Channel" NSFW Commands
+* No Mass DM or Public DM Commands unless the DM says who the message was from.
+
+---
+
+
+### What do Certified Bots get?
+* Certified Bot Advantages
+  1. Certifed Badge for your Bot Card on our Home Page.
+  2. Certifed Badge for your Bot Page.
+  3. `Certified Bot` Role in our Discord Server (Listed Highest amongst other bots)
+  4. Display your bot on our Certified Bots page (Coming Soon)
+  5. List your bot in the `Certified Bots` section of our Home Page.
+  6. Custom Bot Page URL (Possibly coming soon)
+
+---
+
+## Applying for Certification
+* If you meet the requirements above please contact one of our [Staff Members](https://paradisebots.net/staff) in our [Discord Server](https://paradisebots.net/join)
+
