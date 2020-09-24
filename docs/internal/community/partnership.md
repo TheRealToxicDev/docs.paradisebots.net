@@ -54,11 +54,17 @@ Partnered_Bot_Badge | Object | The Partnered Bot Badge featured on the bot page.
 <Alert type="error">
 **Warning** Partner Applications for bots are Closed!!
 </Alert>
+
 * No NSFW Content/Commands allowed outside of NSFW Marked Channels
+
 * No "Invite Rewards" Based support servers
+
 * All Partnered Bots must Follow our [Bot Rules and Requirements](https://paradisebots.net/botrules) 
+
 * All Partnered Discord Bots are expected to have Private (Owner or Admin only) Eval and Exec commands
+
 * No Public DM Commands
+
 * No Mass DM Commands
 
 ---
