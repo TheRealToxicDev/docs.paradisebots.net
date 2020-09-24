@@ -35,6 +35,12 @@ Partnered_Bot_Badge | Object | The Partnered Bot Badge featured on the bot page.
 
 ## Partnership Requirements
 
+<Alert type="error">
+
+Warning: Partner Applications for bots are Closed!!
+
+</Alert>
+
 ### Community Requirements
 * All Partnered Servers are expected to have Upwards of 100 Members (Exceptions can be made)
 * All Partnered Servers must follow our Rules on NSFW Content and Screen Sharing.
@@ -51,20 +57,11 @@ Partnered_Bot_Badge | Object | The Partnered Bot Badge featured on the bot page.
 ---
 
 ### Discord Bot Requirements
-<Alert type="error">
-**Warning** Partner Applications for bots are Closed!!
-</Alert>
-
 * No NSFW Content/Commands allowed outside of NSFW Marked Channels
-
 * No "Invite Rewards" Based support servers
-
 * All Partnered Bots must Follow our [Bot Rules and Requirements](https://paradisebots.net/botrules) 
-
 * All Partnered Discord Bots are expected to have Private (Owner or Admin only) Eval and Exec commands
-
 * No Public DM Commands
-
 * No Mass DM Commands
 
 ---
