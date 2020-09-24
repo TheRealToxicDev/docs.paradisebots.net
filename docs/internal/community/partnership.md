@@ -16,7 +16,7 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 ## Partnered User Structure/Schema
 | Field	| Type | Description
 |--------------|----------|--------------|
-id | Snowflake | The id of the certified user.
+userID | Snowflake | The id of the certified user.
 username | String | The username of the certified user.
 isPartnered | Boolean | The certified status of the user.
 Partnered_Member_Badge | Object | The Certified User Badge featured on the user page.
@@ -26,7 +26,7 @@ Partnered_Member_Badge | Object | The Certified User Badge featured on the user 
 ## Partnered Bot Structure/Schema
 | Field	| Type | Description
 |--------------|----------|--------------|
-id | Snowflake | The id of the certified bot.
+botid | Snowflake | The id of the certified bot.
 username | String | The username of the partnered bot.
 isPartneredBot | Boolean  | The partnered status of the bot.
 Partnered_Bot_Badge | Object | The Partnered Bot Badge featured on the bot page.
