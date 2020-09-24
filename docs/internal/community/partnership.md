@@ -13,13 +13,33 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 
 ---
 
+## Partnered User Structure/Schema
+| Field	| Type | Description
+|--------------|----------|--------------|
+id | Snowflake | The id of the certified user.
+username | String | The username of the certified user.
+isPartnered | Boolean | The certified status of the user.
+Partnered_Member_Badge | Object | The Certified User Badge featured on the user page.
+
+--- 
+
+## Partnered Bot Structure/Schema
+| Field	| Type | Description
+|--------------|----------|--------------|
+id | Snowflake | The id of the certified bot.
+username | String | The username of the partnered bot.
+isPartneredBot | Boolean  | The partnered status of the bot.
+Partnered_Bot_Badge | Object | The Partnered Bot Badge featured on the bot page.
+
+---
+
 ## Partnership Requirements
 
 ### Community Requirements
-* ~~All Partnered Servers are expected to have Upwards of 100 Members (Exceptions can be made)~~
+* All Partnered Servers are expected to have Upwards of 100 Members (Exceptions can be made)
 * All Partnered Servers must follow our Rules on NSFW Content and Screen Sharing.
 * All Partnered Servers are required to Advertise and or Boost Paradise Bots (PBL) as much as possible.
-* Any server looking to partner with Paradise Bots must not be in competition with us or our services.
+* Any server looking to partner with Paradise Bots must not be in competition with us or our services (ie: No Bot Lists, Specifically newer ones).
 
 ---
 
@@ -41,6 +61,4 @@ Each partner contributes advertising, or skills to the partnership. In return, e
 ---
 
 ## Applying for Partnership
-We do not currently have an application for partnership, while we work on making one follow the steps below.
-* Head to our [Discord Server](https://discord.gg/PbqDufm)
-* DM or Ping one of Owners and let them know you would like to partner.
+* [Partner Application](https://paradisebots.net/apps/partner)
