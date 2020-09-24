@@ -79,11 +79,12 @@ Warning: Partner Applications for bots are Closed!!
   4. Have your bot Listed on our [Partners Page](https://paradisebots.net/partners)
 
 * Partnered Servers
-  1. Have your server Listed on our [Partners Page](https://paradisebots.net/partners)
-  2. Can be Advertised in our `partner-ads` channel once per week.
+  1. Server Owners get a Special `Partnered Member` role in our Discord Server.
+  2. Have your server Listed on our [Partners Page](https://paradisebots.net/partners)
+  3. Can be Advertised in our `partner-ads` channel once per week.
 
 * Partnered Businesses/Services
-  1. Server Owners get a Special `Partnered Member` role in our Discord Server.
+  1. Owners get a Special `Partnered Member` role in our Discord Server.
   2. Have your service Listed on our [Partners Page](https://paradisebots.net/partners)
   3. Can be Advertised in our `partner-ads` channel once per week.
 
