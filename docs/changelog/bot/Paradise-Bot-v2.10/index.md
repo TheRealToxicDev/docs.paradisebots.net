@@ -1,4 +1,4 @@
-  ---
+---
 title: Paradise Bot v2.10
 shortTitle: Bot v2.10
 noTOC: true
