@@ -7,7 +7,7 @@ title: Certification
 |--------------|----------|--------------|
 id | Snowflake | The id of the certified bot 
 username | String |	The username of the certified bot
-certifiedBot | Boolean	| The certified status of the bot
+isCertified | Boolean	| The certified status of the bot
 certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
 
 ## Certification Requirements
@@ -18,9 +18,15 @@ certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
 
 </Alert>
 
+<Alert type="error">
+
+<strong>Warning:</strong> Custom URLS or Endpoints will be released at a later date!!
+
+</Alert>
+
 ### Certified Bot Requirements
 All bots must meet these requirements before being considered for Certification.
-* `200 Votes` or more on our Website.
+* `50 Votes` or more on our Website. (Will be changed after Beta Stages)
 * Has been Listed on our webiste for `1 Month` or longer.
 * No Public or "Outside NSFW Channel" NSFW Commands
 * No Mass DM or Public DM Commands unless the DM says who the message was from.
@@ -34,8 +40,8 @@ All bots must meet these requirements before being considered for Certification.
   2. Certifed Badge for your Bot Page.
   3. `Certified Bot` Role in our Discord Server (Listed Highest amongst other bots)
   4. Display your bot on our Certified Bots page (Coming Soon)
-  5. List your bot in the `Certified Bots` section of our Home Page.
-  6. Custom Bot Page URL (Possibly coming soon)
+  5. List your bot in the `Certified Bots` section of our Home Page (Coming Soon).
+  6. Custom Bot Page URL (Will be Available in the Future)
 
 ---
 
