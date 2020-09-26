@@ -28,7 +28,7 @@ certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
 All bots must meet these requirements before being considered for Certification.
 * `50 Votes` or more on our Website. (Will be changed after Beta Stages)
 * Has been Listed on our webiste for `1 Month` or longer.
-* No Public or "Outside NSFW Channel" NSFW Commands
+* No NSFW content (including but not limited to the Urban Dictionary, links that source to pornographic material) outside of NSFW channels..
 * No Mass DM or Public DM Commands unless the DM says who the message was from.
 
 ---
