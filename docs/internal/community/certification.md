@@ -33,11 +33,13 @@ All bots must meet these requirements before being considered for Certification.
 * No Public DM Commands (DM a user) unless the DM says who the message was from.
 * If the bot has a public say or embed command it should have a system to prevent the the use of @everyone!
 
-#### Definitions:
-* Public
+#### More Info about Requirements:
+* Public Definition (ie: Public DM Commands)
    1. Command(s) or Feature(s) that are not limited by a permissions system.
    2. Command(s) or Feature(s) that are not locked to admins or bot owners but should be (ie: eval)
 
+* Use of @everyone
+   1. @everyone or @here in say or embed messages is pointless in our server as only Staff can use this feature!
 
 ---
 
