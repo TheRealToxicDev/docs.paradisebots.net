@@ -29,7 +29,15 @@ All bots must meet these requirements before being considered for Certification.
 * `50 Votes` or more on our Website. (Will be changed after Beta Stages)
 * Has been Listed on our webiste for `1 Month` or longer.
 * No NSFW content (including but not limited to the Urban Dictionary, links that source to pornographic material) outside of NSFW channels..
-* No Mass DM or Public DM Commands unless the DM says who the message was from.
+* No Mass DM Commands.
+* No Public DM Commands (DM a user) unless the DM says who the message was from.
+* If the bot has a public say or embed command it should have a system to prevent the the use of @everyone!
+
+#### Definitions:
+* Public
+   1. Command(s) or Feature(s) that are not limited by a permissions system.
+   2. Command(s) or Feature(s) that are not locked to admins or bot owners but should be (ie: eval)
+
 
 ---
 
