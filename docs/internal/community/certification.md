@@ -31,7 +31,7 @@ All bots must meet these requirements before being considered for Certification.
 * No NSFW content (including but not limited to the Urban Dictionary, links that source to pornographic material) outside of NSFW channels..
 * No Mass DM Commands.
 * No Public DM Commands (DM a user) unless the DM says who the message was from.
-* If the bot has a public say or embed command it should have a system to prevent the the use of @everyone!
+* If the bot has a public say or embed command it should have a system to prevent the use of @everyone!
 
 #### More Info about Requirements:
 * Public Definition (ie: Public DM Commands)
