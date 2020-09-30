@@ -8,7 +8,7 @@ Embeds or "Widgets" are images that can display your bots stats on your own webs
 
 ## Get Embed
 
-<Route method="GET" path="/api/embed/{bot.id}" />
+<Route method="GET" path="/bots/{botid}/widget" />
 
 ---
 
@@ -17,19 +17,19 @@ To use the embed, you can insert the following link as an IFrame or Image into y
 
 * Iframe
 ```markdown
-<Iframe src="https://www.paradisebots.net/api/embed/:ID"/>
+<Iframe src="https://www.paradisebots.net/bots/:botID/widget"/>
 ```
 
 * Image
 ```markdown
-https://www.paradisebots.net/api/embed/:ID.png
+![](https://www.paradisebots.net/bots/:botID/widget)
 ```
 
 ---
 
 ## Preview IFrame
 
-<Iframe src="https://www.paradisebots.net/api/embed/727779650738323497"/>
+<Iframe src="https://paradisebots.net/bots/746631296515571725/widget"/>
 
 ---
 
