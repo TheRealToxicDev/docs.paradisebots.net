@@ -17,7 +17,7 @@ certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
   3. No NSFW content outside of NSFW channels.
   4. No Mass DM Commands.
   5. No Public DM Commands (DM a user) unless the DM says who the message was from.
-  6. No use or @everyone in embed or say commands.
+  6. No use of @everyone in embed or say commands.
   7. Have an informative and detailed bot page on paradise bots.
   8. Have either a support server or website.
   9. Have a minimum of 10 functional commands
