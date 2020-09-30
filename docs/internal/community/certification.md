@@ -45,4 +45,4 @@ certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
 
 ## Applying for Certification
 * If you meet the requirements above please contact one of our [Staff Members](https://paradisebots.net/staff) in our [Discord Server](https://paradisebots.net/join)
-
+* You will also be automatically applied when your bot reaches the vote requirements listed above.
