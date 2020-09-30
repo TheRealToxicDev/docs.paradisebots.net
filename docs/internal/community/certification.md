@@ -12,26 +12,17 @@ certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
 
 ## Certification Requirements
 
-<Alert type="error">
-
-<strong>Warning:</strong> User Certification will be released at a later date!!
-
-</Alert>
-
-<Alert type="error">
-
-<strong>Warning:</strong> Custom URLS or Endpoints will be released at a later date!!
-
-</Alert>
-
 ### Certified Bot Requirements
-All bots must meet these requirements before being considered for Certification.
-* `50 Votes` or more on our Website. (Will be changed after Beta Stages)
-* Has been Listed on our webiste for `1 Month` or longer.
-* No NSFW content (including but not limited to the Urban Dictionary, links that source to pornographic material) outside of NSFW channels..
-* No Mass DM Commands.
-* No Public DM Commands (DM a user) unless the DM says who the message was from.
-* If the bot has a public say or embed command it should have a system to prevent the use of @everyone!
+* All bots must meet these requirements before being considered for Certification.
+  1. Atleast `50 Votes` or more on our Website.
+  2. Has been Listed on our webiste for `15 Days` or longer.
+  3. No NSFW content outside of NSFW channels.
+  4. No Mass DM Commands.
+  5. No Public DM Commands (DM a user) unless the DM says who the message was from.
+  6. No use or @everyone in embed or say commands.
+  7. Have an informative and detailed bot page on paradise bots.
+  8. Have either a support server or website.
+  9. Have a minimum of 10 functional commands
 
 #### More Info about Requirements:
 * Public Definition (ie: Public DM Commands)
@@ -49,9 +40,8 @@ All bots must meet these requirements before being considered for Certification.
   1. Certifed Badge for your Bot Card on our Home Page.
   2. Certifed Badge for your Bot Page.
   3. `Certified Bot` Role in our Discord Server (Listed Highest amongst other bots)
-  4. Display your bot on our Certified Bots page (Coming Soon)
-  5. List your bot in the `Certified Bots` section of our Home Page (Coming Soon).
-  6. Custom Bot Page URL (Will be Available in the Future)
+  4. Display your bot on our Certified Bots page
+  5. Custom Bot Page URL (Will be Available in the Future)
 
 ---
 
