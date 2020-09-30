@@ -20,7 +20,7 @@ To use the embed, you can insert the following link as an IFrame or Image into y
 <Iframe src="https://www.paradisebots.net/bots/:botID/widget"/>
 ```
 
-* Image
+* Markdown
 ```markdown
 ![](https://www.paradisebots.net/bots/:botID/widget)
 ```
@@ -29,7 +29,7 @@ To use the embed, you can insert the following link as an IFrame or Image into y
 
 ## Preview IFrame
 
-<Iframe src="https://paradisebots.net/bots/746631296515571725/widget" width="250" height="250"/>
+<Iframe src="https://paradisebots.net/bots/746631296515571725/widget" width="150px" height="150px"/>
 
 ---
 
