@@ -29,7 +29,7 @@ To use the embed, you can insert the following link as an IFrame or Image into y
 
 ## Preview IFrame
 
-<Iframe src="https://paradisebots.net/bots/746631296515571725/widget.png"/>
+<Iframe src="https://paradisebots.net/bots/746631296515571725/widget"/>
 
 ---
 
