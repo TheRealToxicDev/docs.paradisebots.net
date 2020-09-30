@@ -11,8 +11,6 @@ isCertified | Boolean	| The certified status of the bot
 certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
 
 ## Certification Requirements
-
-### Certified Bot Requirements
 * All bots must meet these requirements before being considered for Certification.
   1. Atleast `50 Votes` or more on our Website.
   2. Has been Listed on our webiste for `15 Days` or longer.
