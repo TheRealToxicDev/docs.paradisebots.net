@@ -32,6 +32,12 @@ certifiedBadge | Object | The Certified Bot Badge featured on the bot page.
 
 ---
 
+## Certification Terms
+• Abuse of the `Paradise Bots API` or the `Paradise Bots Voting System` in an attempt to gain access to this program
+will result in a ban from both our API and our Voting System.
+
+---
+
 
 ### What do Certified Bots get?
 * Certified Bot Advantages
