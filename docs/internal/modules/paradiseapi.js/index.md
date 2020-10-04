@@ -7,8 +7,6 @@ An official NPM Module for interacting with the  Paradise API
 ---
 
 ## Installation
-`npm i paradisebotsapi.js@1.0.2`
-or
 `npm i paradiseapi.js@1.0.2`
 
 ## Hard Coded Install
