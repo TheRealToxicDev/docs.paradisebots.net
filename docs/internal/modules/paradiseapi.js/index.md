@@ -7,12 +7,14 @@ An official NPM Module for interacting with the  Paradise API
 ---
 
 ## Installation
-`npm install paradiseapi.js`
+`npm i paradisebotsapi.js@1.0.2`
+or
+`npm i paradiseapi.js@1.0.2`
 
-## GitHub Package Install
+## Hard Coded Install
 Append the Line below to your package.json
 ```
-    "paradiseapi.js": "https://github.com/ParadiseBotList/paradisebotsapi.js",
+    "paradiseapi.js": "^1.0.2",
 ```
 
 • Save and profit
