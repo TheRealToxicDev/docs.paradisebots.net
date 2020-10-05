@@ -34,4 +34,33 @@ fetch("https://paradisebots.net/api/v1/bot/:botid", requestOptions) // Make sure
   .catch(console.error);
 ```
 
+## Example
+Example of posting server count using superagent
+
+```js
+client.on("ready", async () => {
+            const servercount = client.guilds.cache.size
+            superagent.post(`https://paradisebots.net/api/v1/bot/:botid`)
+                .set('Authorization', 'KEY')
+                .send({
+                    server_count: servercount,
+                    shard_count: "1"
+                })
+                .then(console.log('Updated your stats'))
+                .catch(e => console.warn('Paradise API is down spam Toxic Dev'));
+            superagent.post(`https://paradisebots.net/api/v1/bot/:botid`)
+                .set('Authorization', 'KEY')
+                .send({
+                    server_count: servercount,
+                    shard_count: "1"
+                })
+                .then(console.log('Updated your stats'))
+                .catch(e => console.warn('Paradise API is down spam Toxic Dev'));
+        } catch (err) {
+            return;
+        }
+    }, 3600000);
+});
+```
+
 ---
